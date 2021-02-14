@@ -4,7 +4,13 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Andre Wru`,
+    siteTitleAlt: `I <3 Code, Media and You`,
+    siteHeadline: `My positive but opinionated take on code stuff as well as media`,
+    siteUrl: `https://andrewru.com`,
+    siteDescription: `Blog about frontend, backend, full-stack topics. Includes posts about games, TV-shows, movies and books as well.`,
+    siteLanguage: `en`,
+    author: `@andre_wru`,
   },
   plugins: [
     {
@@ -24,11 +30,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/andre_wru`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/andre.wru/`,
           },
         ],
       },
@@ -37,9 +43,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Andre Wru blog about code and other stuff`,
+        short_name: `andre-wru-blog`,
+        description: `My personal blog about all sorts of technical full-stack stuff. Also I will blog about games, TV shows, movies and books.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
