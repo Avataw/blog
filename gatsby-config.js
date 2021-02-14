@@ -26,6 +26,15 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Imprint`,
+            slug: `/imprint`,
+          },
+          {
+            title: `Privacy`,
+            slug: `/privacy`,
+          },
+
         ],
         externalLinks: [
           {
