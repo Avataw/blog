@@ -5,7 +5,7 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `Andre Wru`,
-    siteTitleAlt: `I <3 Code, Media and You`,
+    siteTitleAlt: `Andre Wru <3`,
     siteHeadline: `My positive but opinionated take on code stuff as well as media`,
     siteUrl: `https://andrewru.com`,
     siteDescription: `Blog about frontend, backend, full-stack topics. Includes posts about games, TV-shows, movies and books as well.`,
@@ -52,7 +52,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Andre Wru blog about code and other stuff`,
+        name: `Andre Wru blog about all the things I love`,
         short_name: `andre-wru-blog`,
         description: `My personal blog about all sorts of technical full-stack stuff. Also I will blog about games, TV shows, movies and books.`,
         start_url: `/`,
@@ -61,7 +61,7 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/andrewru-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
@@ -76,4 +76,5 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`
   ].filter(Boolean),
+
 }
